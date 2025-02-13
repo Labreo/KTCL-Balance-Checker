@@ -11,6 +11,7 @@ This Python script checks your KTCL smart card balance and sends a WhatsApp noti
 - Python 3.x
 - Web browser installed (for WhatsApp Web automation)
 - Required Python libraries (install using `requirements.txt`)
+- Configure own whatsapp number and details in the script.Requires web browser to be open actively.
 
 ## Installation
 1. Clone or download this repository.
