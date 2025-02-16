@@ -32,7 +32,7 @@ wallet_element = soup.find("input", {"id": "Wallet_balance"})
 
 if wallet_element:
     balance =int(wallet_element.get("value"))
-    if balance<53:
+    if balance<60:
         message = f"Your KTCL card has only ₹{balance} balance remaining!Recharge it soon!"
 
         # Send the message instantly
